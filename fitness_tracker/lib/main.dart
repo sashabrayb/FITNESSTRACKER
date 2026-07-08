@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +25,10 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       body: GestureDetector(
         onTap: () {
+            Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => const HomePage()),
+            );
           // TODO: navigate to Home page once it exists
         },
         child: Stack(
