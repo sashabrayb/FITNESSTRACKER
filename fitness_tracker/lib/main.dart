@@ -46,7 +46,7 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Align(
-              alignment: const Alignment(0, 0.4),
+              alignment: const Alignment(0, 0.2),
               child: Text(
                 'TAP TO PLAY',
                 style: TextStyle(
@@ -54,7 +54,7 @@ class LoginPage extends StatelessWidget {
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                   shadows: [
-                    Shadow(color: Colors.black.withOpacity(0.5), blurRadius: 4),
+                    Shadow(color: Colors.black.withOpacity(0.4), blurRadius: 4),
                   ],
                 ),
               ),
